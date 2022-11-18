@@ -1,0 +1,136 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+    <title>registration page for a music streaming service</title>
+  </head>
+  <body>
+    <div class="container">
+      <div class="main-heading">
+        <h1>Registration Form</h1>
+      </div>
+      <form class="form-block" action="#">
+        <div class="form-wrapper">
+          <input
+            class="width-50"
+            type="text"
+            id="first-name"
+            name="first-name"
+            placeholder="First name"
+            required
+          />
+          <input
+            class="width-50"
+            type="text"
+            id="last-name"
+            name="last-name"
+            placeholder="Last name"
+            required
+          />
+        </div>
+        <div class="form-wrapper">
+          <input
+            class="width-100"
+            type="email"
+            id="email-address"
+            name="email-address"
+            placeholder="E-mail"
+            required
+          />
+        </div>
+        <div class="form-wrapper">
+          <input
+            class="width-33"
+            type="password"
+            id="password"
+            name="password"
+            placeholder="Password"
+            required
+          />
+          <input
+            class="width-33"
+            type="date"
+            id="date"
+            name="date"
+            placeholder="Date of Birth"
+            required
+          />
+          <input
+            class="width-33"
+            type="tel"
+            id="tel"
+            name="tel"
+            placeholder="Phone number"
+            required
+          />
+        </div>
+        <div class="form-wrapper">
+          <div class="width-25">
+            <input type="checkbox" id="musical-style1" name="musical-style1" />
+            <label class="musical-text" for="musical-style1"> Pop</label><br />
+            <input type="checkbox" id="musical-style2" name="musical-style1" />
+            <label class="musical-text" for="musical-style2"> Rap</label><br />
+            <input type="checkbox" id="musical-style3" name="musical-style1" />
+            <label class="musical-text" for="musical-style3"> Hip hop</label
+            ><br />
+          </div>
+          <div class="width-25">
+            <input type="checkbox" id="musical-style4" name="musical-style1" />
+            <label class="musical-text" for="musical-style4"> Rock</label><br />
+            <input type="checkbox" id="musical-style5" name="musical-style1" />
+            <label class="musical-text" for="musical-style5"> Heavy metal</label
+            ><br />
+            <input type="checkbox" id="musical-style6" name="musical-style1" />
+            <label class="musical-text" for="musical-style6"> Indie</label
+            ><br />
+          </div>
+          <div class="width-25">
+            <input type="checkbox" id="musical-style7" name="musical-style1" />
+            <label class="musical-text" for="musical-style7"> Classical</label
+            ><br />
+            <input type="checkbox" id="musical-style8" name="musical-style1" />
+            <label class="musical-text" for="musical-style8"> Jazz</label><br />
+            <input type="checkbox" id="musical-style9" name="musical-style1" />
+            <label class="musical-text" for="musical-style9"> Blues</label
+            ><br />
+          </div>
+          <div class="width-25">
+            <input type="checkbox" id="musical-style10" name="musical-style1" />
+            <label class="musical-text" for="musical-style10"> Folk</label
+            ><br />
+            <input type="checkbox" id="musical-style11" name="musical-style1" />
+            <label class="musical-text" for="musical-style11"> Soul</label
+            ><br />
+            <input type="checkbox" id="musical-style12" name="musical-style1" />
+            <label class="musical-text" for="musical-style12"> Punk Rock</label
+            ><br />
+          </div>
+        </div>
+        <div class="form-wrapper">
+          <input
+            type="radio"
+            id="TermsOfService"
+            name="TermsOfService"
+            required
+          />
+          <label class="termsOfService" for="TermsOfService"
+            >PLEASE READ THE FOLLOWING TERMS OF SERVICE AGREEMENT CAREFULLY. BY
+            ACCESSING OR USING OUR SITES AND OUR SERVICES, YOU HEREBY AGREE TO
+            BE BOUND BY THE TERMS AND ALL TERMS INCORPORATED HEREIN BY
+            REFERENCE.<a href="">Terms of Service Agreement</a></label
+          >
+        </div>
+        <div class="submit-btn">
+          <input
+            type="submit"
+            value="Submit"
+            onclick="alert('Your form is Submitted')"
+          />
+        </div>
+      </form>
+    </div>
+  </body>
+</html>

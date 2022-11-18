@@ -1,0 +1,96 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700;800;900&display=swap');
+body{
+    margin: 0;
+    padding: 0;
+    font-family: 'Poppins', sans-serif;
+    height: 100vh;
+    background: linear-gradient(120deg, rgba(2500,0,0,100%)0%, rgba(255,209,25,100%)50%, rgba(253,140,0)100%);
+    display: flex;
+    align-items: center;
+}
+.container{
+    max-width: 700px;
+    width: 100%;
+    margin: 0 auto;
+    border: 1px solid rgb(151, 151, 151);
+    box-shadow: 0 5px 10px rgba(0,0,0,0.1);
+}
+.main-heading{
+    text-align: center;
+    color: #303030;
+}
+.form-block{
+    padding: 1em 1em;
+}
+form .form-wrapper{
+    width: 100%;
+    display: flex;
+    align-items: flex-start;
+    margin-top: 1em;
+}
+.form-wrapper input {
+    margin: 0.5em 1em;
+    padding: 0.6em 0.8em;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    opacity: 0.8;
+    color: black;
+    font-weight: 500;
+    cursor: pointer;
+}
+.form-wrapper label {
+    cursor: pointer;
+}
+.form-wrapper input:hover{
+    box-shadow: 0 5px 10px rgba(0,0,0,0.1);
+    transition: all 0.3s linear;
+
+}
+.form-wrapper input:is(:focus, :valid){
+        box-shadow: 0 3px 6px(rgba(0,0,0,0.1));
+        border: 1px solid rgb(27, 27, 27);
+        outline: 0;
+}
+.form-wrapper input[type="date"]{
+    color: black ;
+    opacity: 0.8;
+}
+.form-wrapper input[type="date"]:valid{
+    color: black ;
+}
+.width-25{
+    width: 25%;
+}
+.width-50{
+    width: 50%;
+}
+.width-100{
+    width: 100%;
+}
+.width-33{
+    width: 33%;
+}
+.form-wrapper .musical-text {
+    font-size: 0.9em;
+    color: #000;
+}
+.termsOfService{
+    font-size: 0.7em;
+    color: #000;
+}
+.submit-btn{
+    text-align: center;
+    margin-top: 2em;
+}
+.submit-btn input {
+    background-color: brown;
+    border-width: 0;
+    color: white;
+    padding: 0.5em 2em;
+    border-radius: 4px;
+    cursor: pointer;
+}
+.submit-btn input:hover{
+    box-shadow: 0 5px 10px rgba(0,0,0,0.2);
+    transition:all 0.3s linear;
+}
